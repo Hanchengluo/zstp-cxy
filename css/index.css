@@ -176,18 +176,22 @@ body {
 }
 
 .header .search {
-  width: 220px;
+  width: 150px;
   height: 40px;
   line-height: 38px;
   border: 1px solid #ccc;
   float: right;
   margin-top: 20px;
+  position: relative;
 }
 
 .header .search input {
   font-size: 14px;
   text-indent: 9px;
   color: #ccc;
+  float: left;
+  height: 38px;
+  line-height: 38px;
 }
 
 .header .search button {
@@ -195,6 +199,9 @@ body {
   height: 38px;
   background: url(../img/search-icon.png) no-repeat center center;
   float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .footer-bg {
@@ -306,6 +313,7 @@ body {
   border-radius: 20px 0 0 0;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
 }
 
 .profile h3, .dynamic h3 {

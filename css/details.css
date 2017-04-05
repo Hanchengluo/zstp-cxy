@@ -10,7 +10,8 @@ html, body, input, button, div, span, applet, object, iframe, h1, h2, h3, h4, h5
   background: transparent;
 }
 h1, h2, h3, h4, h5, h6{
-font-weight: 600;
+  line-height: 100%;
+  padding: 10px 0;
 }
 body {
   line-height: 1;
@@ -178,18 +179,22 @@ body {
 }
 
 .header .search {
-  width: 220px;
+  width: 150px;
   height: 40px;
   line-height: 38px;
   border: 1px solid #ccc;
   float: right;
   margin-top: 20px;
+  position: relative;
 }
 
 .header .search input {
   font-size: 14px;
   text-indent: 9px;
   color: #ccc;
+  float: left;
+  height: 38px;
+  line-height: 38px;
 }
 
 .header .search button {
@@ -197,6 +202,9 @@ body {
   height: 38px;
   background: url(../img/search-icon.png) no-repeat center center;
   float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .footer-bg {
@@ -257,33 +265,21 @@ body {
 }
 .main .content h1{
   font-size: 34px;
-  line-height: 100%;
-  padding: 4px;
 }
 .main .content h2{
   font-size: 30px;
-  line-height: 100%;
-  padding: 4px;
 }
 .main .content h3{
   font-size: 24px;
-  line-height: 100%;
-  padding: 4px;
 }
 .main .content h4{
   font-size: 18px;
-  line-height: 100%;
-  padding: 4px;
 }
 .main .content h5{
   font-size: 14px;
-  line-height: 100%;
-  padding: 4px;
 }
 .main .content h6{
   font-size: 12px;
-  line-height: 100%;
-  padding: 4px;
 }
 .main .accessory{
   padding: 14px 40px;
