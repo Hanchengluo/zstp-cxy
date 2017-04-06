@@ -229,7 +229,7 @@ body {
 }
 
 .main {
-  height: 886px;
+  height: 520px;
 }
 
 .project {
@@ -306,6 +306,8 @@ body {
   -o-transition: all 0.3s ease-in-out;
 }
 .profile, .dynamic {
+  display:none;
+  visibility: hidden;
   width: 580px;
   height: 327px;
   background: #fff;
